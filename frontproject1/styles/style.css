@@ -1,0 +1,163 @@
+/* System-Header */
+.system-header{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 35%;
+    background-color: rgba(229, 229, 229, 0.5);
+    background-size: cover ;
+    position: fixed;
+
+}
+
+/* SECTION */
+
+.ss-logo{
+    display: block;
+    height: 50%;
+    width: 35%;
+   padding-top:20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.ss-title{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 8%;
+    margin-top: 10%; 
+}
+
+.system-footer{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(169, 161, 161);
+    margin-left: 4.5%;
+    margin-top: 70%;
+}
+
+/* Right side of page */
+
+.system-main{
+    left: 35%;
+    top: 0%;
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    background-size: cover;
+}
+
+.system-main-header-title{
+    justify-content: space-between;
+}
+
+.system-main-block{
+    position: absolute;
+    width: 480px;
+    height: 306px;
+    top: 0 ;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    /* border: 2px solid black; */
+
+
+}
+
+.system-main-header-title{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 15%; 
+    margin-bottom:40px;
+}
+.reg-reference{
+    color: rgb(117, 117, 231);
+    font-size: 18px;
+    margin-bottom: 5%;
+    padding-left: 27%;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+} 
+.reg-reference:hover{
+    vertical-align: middle;
+    color: blueviolet; }
+
+.name-of-login-bar{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.normalInput{
+    position: absolute;
+    height: 35px;
+    width: 480px;
+    border: 1px solid rgb(167, 167, 167);
+    margin-top: 3%;
+    font-size: 18px;
+    padding-left: 3%;
+    border-radius: 10px; 
+}
+
+.name-of-password-bar{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 17%;
+}
+
+
+
+
+.button-enter{
+    margin-top: 20%;
+}
+
+#enterButton{
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(32, 32, 254);
+    font-size: 18px;
+    padding-left: 3%;
+    border-style: none;
+}
+
+#enterButton:hover{
+    cursor: pointer;
+}
+
+#enterButton:active{
+    transform: scale(0.98); 
+  
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+
+}
+
+.emptyInput{
+    position: absolute;
+    height: 35px;
+    width: 480px;
+    border: 1px solid rgb(238, 5, 5);
+    margin-top: 3%;
+    font-size: 18px;
+    padding-left: 3%;
+    border-radius: 10px; 
+    
+}
+
+

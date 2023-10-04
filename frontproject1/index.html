@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"Авторизация"</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="system-header">
+  <section class="system-section">
+    <div class="system-section-logo">
+        <img class="ss-logo" src="images/minesobraz-logo.png">
+        <div class="ss-title">
+        Электронная зачетная книжка
+        </div>
+    </div>
+  </section>
+  <footer class = "system-footer">
+    © Cтуденческий проект «Электронная зачетная книжка»
+  </footer>
+</header>
+
+<main class = "system-main">
+    <div class = "system-main-header-title">
+        Вход
+        <a class="reg-reference" href="regpage.html">Зарегистрироваться</a>
+    </div>
+    
+  <section class="system-main-block">
+      <div class="name-of-login-bar">
+        Телефонный номер или электронная почта
+      </div>
+      <div class="login-bar">
+        <input type="ema]" id="loginInput" 
+                required  class="normalInput">
+      </div>
+      <div class="name-of-password-bar">
+        Пароль
+      </div>
+      <div class="password-bar">
+        <input type="password" id="passwordInput"
+                 required  class="normalInput">
+      </div>
+      <div class = "button-enter">
+        <button type="button" id="enterButton">Войти</button>
+      </div>
+      
+  </section>
+</main>
+
+</body>
+<script src="scripts/main.js"></script>
+</html>

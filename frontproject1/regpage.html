@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"Авторизация"</title>
+  <link rel="stylesheet" href="styles/regPageStyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="system-header">
+  <section class="system-section">
+    <div class="system-section-logo">
+        <img class="ss-logo" src="images/minesobraz-logo.png">
+        <div class="ss-title">
+        Электронная зачетная книжка
+        </div>
+    </div>
+  </section>
+  <footer class = "system-footer">
+    © Cтуденческий проект «Электронная зачетная книжка»
+  </footer>
+</header>
+
+<main class = "system-main">
+  <div class = "system-main-header-title">
+    Регистрация
+    <a class="reg-reference" href="index.html">Войти</a>
+</div>
+<section class="system-main-block">
+  <div class="name-of-surname-bar">
+    Фамилия
+  </div>
+  <div class="surname-bar">
+    <input pattern="[А-Яа-яЁё] type ="name" id="surnameInput" 
+            required  class="normalInput">
+  </div>  
+  <div class="name-of-name-bar">
+    Имя
+  </div>
+  <div class="name-bar">
+    <input pattern="[А-Яа-яЁё] type="name" id="nameInput"
+             required  class="normalInput">
+  </div>
+  <div class="name-of-middlename-bar">
+    Отчество
+  </div>
+  <div class="middlename-bar">
+    <input pattern="[А-Яа-яЁё] type="name" id="middlenameInput"
+             required class="normalInput">
+  </div>
+  <div class="name-of-password-bar">
+    Пароль
+  </div>
+
+  <div class="password-bar">
+    <input type="password" id="passwordInput"
+             required  class="normalInput">
+  </div>
+
+  <div class="name-of-login-bar">
+    Электронная почта
+  </div>
+  <div class="login-bar">
+    <input type="email" id="loginInput" 
+            required  class="normalInput">
+  </div>
+  <div class = "button-reg">
+    <button type="button" id="regButton">Зарегистрироваться</button>
+  </div>
+</section>
+</main>
+
+</body>
+<script src="scripts/reg.js"></script>
+</html>
